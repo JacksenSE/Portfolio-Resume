@@ -25,7 +25,7 @@ export default function Projects() {
         <h4>My Third Project</h4>
         <p className='Third-Info'>This project was about 9 months in. <br/>During this project I learned bcrypt and JWT<br/>This project allowed me to truly understand what it means to work with a team of engineers.</p>
         <a href='https://fanter.onrender.com/'><img src='Third.svg' className='Fanter'/><img src="open_in_new_FILL0_wght400_GRAD0_opsz48.svg" className='Out3'/><p className='Demo3'>Live Demo</p></a>
-        <a href="https://github.com/Adelgado4419/MileStone3"><img src=".GitHub.svg" className='Github3'/><p className='Code3'>Code</p></a>
+        <a href="https://github.com/Adelgado4419/MileStone3"><img src="GitHub.svg" className='Github3'/><p className='Code3'>Code</p></a>
         
         </div>
         <div className='Fourth'> 
