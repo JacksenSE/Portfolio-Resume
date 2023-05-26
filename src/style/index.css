@@ -1,0 +1,248 @@
+.bio h1 {
+  display: block;
+  font-size: 3vw; /* Use viewport width unit for font size */
+  font-weight: bold;
+  position: absolute;
+  left: 19vw; /* Use viewport width unit for horizontal positioning */
+  bottom: 48vh; /* Use viewport height unit for vertical positioning */
+}
+
+.bio p {
+  display: block;
+  font-size: 1.3vw; /* Use viewport width unit for font size */
+  font-weight: 300;
+  position: absolute;
+  left: 17.5vw; /* Use viewport width unit for horizontal positioning */
+  bottom: 39vh; /* Use viewport height unit for vertical positioning */
+}
+
+.bio-photo {
+  position: absolute;
+  left: 40vw; /* Use viewport width unit for horizontal positioning */
+  bottom: 80vh; /* Use viewport height unit for vertical positioning */
+  width: 20vh; /* Set the desired width */
+  height: 1vh; /* Let the height adjust proportionally */
+}
+
+
+.Experience-logos {
+  position: absolute;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  bottom: 6vh; /* Use viewport height unit for vertical positioning */
+  left: 51vw; /* Use viewport width unit for horizontal positioning */
+  gap: 2.5vw; /* Use viewport width unit for gap size */
+  width: 2vh; /* Set the desired width */
+  height: 1vh; /* Let the height adjust proportionally */
+}
+
+.Experience ul li {
+  border-radius: 50%;
+  padding: 1vw; /* Use viewport width unit for padding */
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.Experience p {
+  position: absolute;
+  bottom: 1vh; /* Use viewport height unit for vertical positioning */
+  left: 22vw; /* Use viewport width unit for horizontal positioning */
+  font-size: 2vw; /* Use viewport width unit for font size */
+}
+
+.GH {
+  position: absolute;
+  left: 19vw; /* Use viewport width unit for horizontal positioning */
+  bottom: 37vh; /* Use viewport height unit for vertical positioning */
+}
+
+.projects{
+  position: absolute;
+  top: 160vh; /* Use viewport height unit for vertical positioning */
+  left: 22vw; /* Use viewport width unit for horizontal positioning */
+  font-size: 2vw; /* Use viewport width unit for font size */
+}
+
+.projects  .First {
+  position: relative;
+  width: 50vw; 
+  height: 71vh;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.projects h4{
+position: relative;
+font-size: 3vh;
+left: 30vh;
+}
+
+
+.projects  .First p{
+  position: relative;
+  font-size: 1.5vh;
+ left: 10vh;
+}
+.projects .First .Out1{
+  position: relative;
+  right: 20vh;
+  top: 22vh;
+  
+}
+.projects .First .Demo1{
+  position: relative;
+  left: 47vh;
+  top: 15.5vh;
+  font-size: 2vh;
+  }
+.projects .First .Github1{
+  position: relative;
+  left: 35vh;
+  top: 8.5vh;
+}
+.projects .First .Code1{
+  position: relative;
+  left: 29vh;
+  top: 2.7vh;
+  font-size: 2vh;
+  }
+.projects  .Second {
+  position: relative;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  top: 5vh;
+  width: 50vw; 
+  height: 74.9.9vh;
+}
+.projects  .Second .Plant{
+  position: relative;
+  left: 23vh;
+}
+.projects  .Second p{
+  position: relative;
+  font-size: 2vh;
+  left: 20vh;
+}
+.projects .Second .Out2{
+  position: relative;
+  left: 19vh;
+  top: 21.8vh;
+}
+.projects .Second .Demo2{
+  position: relative;
+  left: 45vh;
+  top: 15.5vh;
+  }
+.projects .Second .Github2{
+  position: relative;
+  left: 35vh;
+  top: 8.5vh;
+}
+.projects .Second .Code2{
+  position: relative;
+  left: 29vh;
+  top: 2.5vh;
+  }
+.projects  .Third {
+  position: relative;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  top: 8vh;
+  width: 50vw; 
+  height: 78vh;
+}
+.projects  .Third .Fanter{
+  position: relative;
+  left: 23vh;
+  background-color: #f5dcdc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.projects  .Third p{
+  position: relative;
+  font-size: 2vh;
+  left: 20vh;
+ 
+}
+.projects .Third .Out3 {
+  position: relative;
+  left: 25vh;
+  top: 22vh;
+}
+.projects .Third .Demo3{
+  position: relative;
+  left: 46vh;
+  top: 15.7vh;
+  }
+.projects .Third .Github3{
+  position: relative;
+  left: 35vh;
+  top: 8.7vh;
+}
+
+.projects .Third .Code3{
+position: relative;
+left: 29vh;
+top: 2.9vh;
+}
+
+
+.projects  .Fourth {
+  position: relative;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  top: 11vh;
+  width: 50vw; 
+  height: 78vh;
+}
+.projects  .Fourth .FineTech{
+  position: relative;
+  left: 23vh;
+  background-color: #f5dcdc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.projects  .Fourth  p{
+  position: relative;
+  font-size: 2vh;
+  left: 18vh;
+ 
+}
+.projects .Fourth .Out4 {
+  position: relative;
+  left: 25vh;
+  top: 22vh;
+}
+.projects .Fourth .Demo4{
+  position: relative;
+  left: 44vh;
+  top: 15vh;
+  font-size: 2.4vh;
+  }
+.projects .Fourth .Github4{
+  position: relative;
+  left: 26vh;
+  top: 7.2vh;
+}
+
+.projects .Fourth .Code4{
+position: relative;
+right: 20vh;
+top: 1.5vh;
+}

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  background: #fff;
+  border-radius: 9px;
+  padding: 1vw; /* Use viewport width unit for padding */
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  font-size: 1.5vw; /* Use viewport width unit for font size */
+  padding: 0 0.1vw; /* Use viewport width unit for padding */
+  margin: 0 1vw; /* Use viewport width unit for margin */
+  cursor: pointer;
+  position: relative;
+}
+
+nav ul li:after {
+  content: '';
+  width: 0;
+  height: 0.3vw; /* Use viewport width unit for height */
+  background: #000000;
+  position: absolute;
+  left: 0;
+  bottom: -1vw; /* Use viewport width unit for bottom positioning */
+  transition: 0.5s;
+}
+
+nav ul li:hover::after {
+  width: 100%;
+}
+
+.about {
+  position: absolute;
+  background-color: white;
+  padding: 1vh 0; /* Use viewport height unit for padding */
+  top: 100vh; /* Use viewport height unit for top positioning */
+  font-size: 1vh;
+}
+
+.about-info h3 {
+  display: block;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2vw; /* Use viewport width unit for font size */
+}
+
+.about-info p {
+  font-size: 1vw; /* Use viewport width unit for font size */
+  font-family: "Mulish", sans-serif;
+  color: #767676;
+  font-weight: 500;
+  line-height: 1.5;
+  padding-left: 20vh;
+  padding-right: 20vh;
+}
+
+.Contact {
+  position: absolute;
+  background-color: #292626;
+  padding: 20px;
+  width: 100%;
+  z-index: 9999;
+  color: #fff;
+  top: 500vh;
+}
+
+.Contact h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.Contact p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.Contact a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.Contact a:hover {
+  text-decoration: underline;
+}
+
+
