@@ -236,7 +236,6 @@ nav ul li:hover::after {
 }
 
 /* Media Queries for Responsive Design */
-
 @media (max-width: 768px) {
   .bio h1 {
     text-align: center;
@@ -431,9 +430,12 @@ nav ul li:hover::after {
     margin-top: 1em;
     margin-bottom: 1em;
   }
-
+  section#projects.projects {
+    position: relative;
+      bottom: -50em;
+  }
   .project-info {
-    top: 80em;
+    top: 40em;
     margin-top: 1em;
   }
 
@@ -464,4 +466,104 @@ nav ul li:hover::after {
     margin-bottom: 2rem;
   }
   
+}
+@media (max-width: 1920px) and (max-height: 969px) {
+  
+  .about {
+    margin-top: 2em;
+    bottom: 150em;
+  }
+
+  .about-info h3 {
+    font-size: 3rem;
+  }
+
+  .about-info p {
+    font-size: 1.5rem;
+  }
+
+  .bio h1 {
+    text-align: center;
+    left: -13em;
+    top: 2.5em;
+    margin-top: 2em;
+  }
+
+  .bio p {
+    position: relative;
+    text-align: center;
+    left: -15em;
+    top: 4;
+    margin-top: 1em;
+  }
+
+  .bio-photo {
+    position: relative;
+    left: 45em;
+    bottom: 25em;
+    margin-top: 2em;
+    width: 20em;
+    height: auto;
+  }
+
+  .Experience-logos {
+    top: 53em;
+    left: 58em;
+    justify-content: space-around;
+  }
+
+  .Experience p {
+    position: relative;
+    text-align: center;
+    top: -8.2em;
+    left: -9.5em;
+    margin-top: 1em;
+  }
+
+  .GH {
+    position: relative;
+    left: 13em;
+    right: auto;
+    bottom: auto;
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+ 
+  section#projects.projects {
+    position: relative;
+      bottom: -25em;
+  }
+    
+  .project-info {
+    top: 25em;
+    margin-top: 3em;
+  }
+
+.project
+  .project-card,
+  .Project-1,
+  .Project-2,
+  .Project-3,
+  .Project-4 {
+    margin: 2em;
+  }
+  .Contact {
+    position: relative;
+    top: 50em;
+    background-color: rgb(104, 95, 95);
+    padding: 4rem;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .Contact h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .Contact p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
 }

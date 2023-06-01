@@ -42,14 +42,14 @@ export default function Projects() {
               <div className={`Project-${index + 1}`} key={index}>
                 <h4>{project.title}</h4>
                 <p className={`Project-${index + 1}-Info`}>{project.info}</p>
-                <a href={project.demoLink}>
+                <a href={project.demoLink} className={`Demo${index + 1}`}>
                   <img src={project.imgSrc} alt='Project Image' />
                   <img src='open_in_new_FILL0_wght400_GRAD0_opsz48.svg' className={`Out${index + 1}`} />
-                  <p className={`Demo${index + 1}`}>Live Demo</p>
+                  <span>Live Demo</span>
                 </a>
-                <a href={project.githubLink}>
+                <a href={project.githubLink} className={`Code${index + 1}`}>
                   <img src='GitHub.svg' className={`Github${index + 1}`} />
-                  <p className={`Code${index + 1}`}>Code</p>
+                  <span>Code</span>
                 </a>
               </div>
             ))}
