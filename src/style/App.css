@@ -349,7 +349,7 @@ nav ul li:hover::after {
   
 }
 
-@media (max-width: 2560px) and (max-height: 1300px) {
+@media (max-width: 1920px) and (max-height: 970px) {
   
   .about {
     position: relative;
@@ -381,20 +381,20 @@ nav ul li:hover::after {
 .bio h1 {
   position: relative;
   font-size: 3em;
-  left: 10.6em;
+  left: 4em;
   top: 4em;
 }
 
 .bio p {
   position: relative;
   font-size: 2em;
-  left: 16em;
+  left: 6em;
   bottom: 10em;
 }
 
   .bio-photo {
     position: relative;
-    left: 65em;
+    left: 45em;
     bottom: 21em;
     margin-top: 2em;
     width: 20em;
@@ -403,7 +403,7 @@ nav ul li:hover::after {
 
   .Experience-logos {
     top: 53em;
-    left: 75em;
+    left: 60em;
     justify-content: space-around;
   }
 
@@ -417,7 +417,7 @@ nav ul li:hover::after {
 
   .GH {
     position: relative;
-    left: 32em;
+    left: 12em;
     right: auto;
     bottom: -8em;
     margin-top: 1em;
