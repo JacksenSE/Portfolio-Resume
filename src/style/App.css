@@ -91,20 +91,20 @@ nav ul li:hover::after {
 .bio h1 {
   position: relative;
   font-size: 3em;
-  left: 18.6em;
+  left: 10em;
   top: 4em;
 }
 
 .bio p {
   position: relative;
   font-size: 2em;
-  left: 28em;
+  left: 15em;
   top: 5em;
 }
 
 .bio-photo {
   position: relative;
-  left: 90em;
+  left: 65em;
   bottom: 17em;
   width: 100em;
   height: auto;
@@ -117,7 +117,7 @@ nav ul li:hover::after {
   justify-content: center;
   align-items: center;
   top: 51em;
-  left: 100em;
+  left: 75em;
   gap: 2.5em;
   width: 2em;
   height: 1em;
@@ -132,14 +132,14 @@ nav ul li:hover::after {
 .Experience p {
   position: relative;
   top: -6em;
-  left: 24em;
+  left: 15em;
   font-size: 2.5em;
 }
 
 .GH {
   position: absolute;
-  left: 56.2em;
-  bottom: 74em;
+  left: 30em;
+  bottom: 47em;
 }
 
 .projects {
