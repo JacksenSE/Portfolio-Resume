@@ -18,18 +18,12 @@ export default function Projects() {
     },
     {
       title: 'My Third Project',
-      info: 'This project was about 9 months in. During this project I learned bcrypt and JWT This project allowed me to truly understand what it means to work with a team of engineers.',
-      demoLink: 'https://fanter.onrender.com/',
-      githubLink: 'https://github.com/Adelgado4419/MileStone3',
-      imgSrc: 'Third.svg',
+      info: 'This project was about a year of coding. During this project I learned how to make a Raspberry Pi 4 host a database and api. I learned how to SSL certify a website. I learned how to create/deisgn a smooth interface. Please feel free to post your own clips! I would love to see them!',
+      demoLink: 'https://clips-git-main-jacksense.vercel.app/',
+      githubLink: 'https://github.com/JacksenSE/Clips',
+      imgSrc: 'best.png',
     },
-    {
-      title: 'My Fourth Project',
-      info: '10 months.  I learned a lot of fundamentals during this project.During this project I used some new frameworks and styles of programming.',
-      demoLink: 'https://portfolio-e-commerce-git-main-jacksense.vercel.app/',
-      githubLink: 'https://github.com/JacksenSE/Portfolio-E-Commerce',
-      imgSrc: 'Fourth.svg',
-    },
+    
   ];
 
   return (
