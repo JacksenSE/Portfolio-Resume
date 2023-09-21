@@ -67,7 +67,7 @@ nav ul li:hover::after {
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.3s ease;
-  bottom: 100em;
+  bottom: 90em;
 }
 
 .about:hover {
@@ -141,11 +141,11 @@ nav ul li:hover::after {
   left: 30em;
   bottom: 47em;
 }
-
 .projects {
   text-align: center;
-  padding: 2rem 0;
+  padding: 4rem 0;
 }
+
 
 .project-info h3 {
   font-size: 4em;
@@ -360,7 +360,7 @@ nav ul li:hover::after {
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s ease;
-    bottom: 200em;
+    bottom: 150em;
   }
 
  
